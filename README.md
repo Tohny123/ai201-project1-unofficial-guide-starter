@@ -94,7 +94,8 @@ Different embedding models trade efficiency for accuracy, and vice versa, I woul
 
 **System prompt grounding instruction:**
 "You are a Chatbot that helps people with their questions on Microsoft Windows, \n" \
-"You are given a few short passages from Wikipedia articles with potentially relevant information, use this information in you response, but do not mention that you have been given this text"
+"You are given a few short passages from Wikipedia articles with potentially relevant information, use this information in you response, if possible, when quoting the original text, use quotation marks and state: (According a Wikipedia article)"
+
 
 **How source attribution is surfaced in the response:**
 Occasionally, the LLM would state that it referenced information from the text, It would also directly quote the given text in many cases 
